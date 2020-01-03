@@ -11,22 +11,21 @@ $(document).ready(function(){
   });
 });
 </script>
-<script language="javascript" src="js/clock.js"></script>
+<script src="js/clock.js"></script>
 </head>
 
 <body>
 <h2>JavaScript</h2>
+
+<div id="clock">
+<script type="text/javascript">Draw()</script>
+</div>
 
 <button type="button"
 onclick="document.getElementById('demo').innerHTML = Date()">
 Click me to display Date and Time.</button>
 
 <p id="demo"></p>
-
-<p>Lunar</p>
-<div id="clock">
-<script type="text/javascript">Draw()</script>
-</div>
 
 <h2>Angular</h2>
 <div ng-app="">
